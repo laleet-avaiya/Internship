@@ -36,6 +36,15 @@
         }
     }
 
+    &--green{
+        background-color: $color-primary;
+        color: $color-white !important;
+
+        &::after{
+            background-color: $color-primary;
+        }
+    }
+
 
     &::after{
         content: "";
